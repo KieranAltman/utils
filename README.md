@@ -11,3 +11,18 @@ initPinataProvider("PinataJWTKey");
 // Use provider anywhere
 const provider = getPinataProvider();
 ```
+
+### Aleo Provider
+
+```js
+initAleoProvider();
+initAleoProvider(url);
+
+const provider = getAleoProvider();
+```
+
+## Formatters
+
+- formatUnits
+- formatEther
+- formatAleo
