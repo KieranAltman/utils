@@ -1,6 +1,6 @@
 {
   "name": "@freeloop/utils",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "JS libs.",
   "main": "dist/index.mjs",
   "scripts": {
