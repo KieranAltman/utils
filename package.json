@@ -11,6 +11,7 @@
   "author": "zh-kai",
   "license": "MIT",
   "devDependencies": {
+    "@nuxt/kit": "^3.11.2",
     "changelogen": "^0.5.5",
     "typescript": "^5.3.3",
     "unbuild": "^2.0.0"
@@ -22,7 +23,13 @@
   ],
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs"
+    },
+    "./nuxt": {
+      "types": "./dist/nuxt/module.d.ts",
+      "import": "./dist/nuxt/module.mjs",
+      "default": "./dist/nuxt/module.mjs"
     }
   },
   "dependencies": {
