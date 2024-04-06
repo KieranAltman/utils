@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v0.0.5
+
+[compare changes](https://github.com/zh-kai/utils/compare/v0.0.4...v0.0.5)
+
+### 🚀 Enhancements
+
+- Add sleep & polling ([6a1dcc1](https://github.com/zh-kai/utils/commit/6a1dcc1))
+- Support for nuxt ([fcf125b](https://github.com/zh-kai/utils/commit/fcf125b))
+
+### 🩹 Fixes
+
+- Complete README.md ([cb9738b](https://github.com/zh-kai/utils/commit/cb9738b))
+
+### ❤️ Contributors
+
+- Zh-kai <zh_kai0531@163.com>
+
 ## v0.0.4
 
 [compare changes](https://github.com/zh-kai/utils/compare/v0.0.3...v0.0.4)
