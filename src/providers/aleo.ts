@@ -27,3 +27,26 @@ export function initAleoProvider(url?: string) {
   aleoProvider = new AleoProvider(url ?? DefaultAleoUrl);
   return aleoProvider;
 }
+
+const DefaultAnsUrl = "https://testnet-api.aleonames.id";
+export class AnsResolver extends HttpProvider {
+  constructor(url?: string) {
+    super(url ?? DefaultAnsUrl);
+  }
+
+  /**
+   * Convert ANS name to address
+   * @param name ans name
+   */
+  getAddress(name: string) {
+    return this.get(`/address/${name}`);
+  }
+
+  /**
+   * Query the primary name of an address
+   * @param address aleo address
+   */
+  getName(address: string) {
+    return this.get<{ address: string; name: string }>(`/primary_name/${address}`);
+  }
+}
