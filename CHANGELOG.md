@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.6
+
+[compare changes](https://github.com/zh-kai/utils/compare/v0.0.5...v0.0.6)
+
+### 🚀 Enhancements
+
+- Add AnsResolver ([f542aa4](https://github.com/zh-kai/utils/commit/f542aa4))
+
+### ❤️ Contributors
+
+- KieranAltman <zh_kai0531@163.com>
+
 ## v0.0.5
 
 [compare changes](https://github.com/zh-kai/utils/compare/v0.0.4...v0.0.5)
